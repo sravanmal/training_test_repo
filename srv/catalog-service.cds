@@ -1,6 +1,6 @@
 using {Northwind as external} from './external/Northwind';
 
-service CatalogService {
+service CatalogService @(path : 'Service') {
 
     
     entity ProductsSet as projection on external.Products {
