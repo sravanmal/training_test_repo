@@ -1,0 +1,15 @@
+###
+
+POST http://localhost:4004/odata/v4/catalog/ProductsSet
+Content-Type: application/json
+
+{
+  "@odata.type": "#ODataDemo.FeaturedProduct",
+  "ID": 102,
+  "Name": "Featured Demo Product",
+  "Description": "Derived Product",
+  "ReleaseDate": "2026-02-08T16:02:51Z",
+  "DiscontinuedDate": null,
+  "Rating": 5,
+  "Price": 149.99
+}
